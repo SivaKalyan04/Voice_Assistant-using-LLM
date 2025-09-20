@@ -12,7 +12,7 @@ st.set_page_config(page_title = "Voice Assistant",layout = "wide")
 
 # loading the api key from local enviornment for safty purpose
 load_dotenv()
-VOICE_API_KEY = "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"
+VOICE_API_KEY = "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"
 
 if not VOICE_API_KEY:
     st.error("Missing API Key in ENV")
